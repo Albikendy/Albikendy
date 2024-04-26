@@ -1,9 +1,9 @@
 """
 Ce script permet l'échange de dollars en gourdes et gourdes en dollars.
+Autor : JEAN albikendy
 """
 
 import os
-
 
 def clear_screen():
     """
@@ -13,7 +13,6 @@ def clear_screen():
     selon les besoins de  l'application.
     """
     os.system("cls" if os.name == 'nt' else 'clear')
-
 
 def menu():
     """
@@ -31,7 +30,6 @@ def menu():
     choice = int(input("\t" * 2 + "Faites un choix (1-3) : "))
     return choice
 
-
 def error_choice():
     """
     ...
@@ -43,7 +41,6 @@ def error_choice():
     input("\t" * 1 +
                               "Presser Entrée/Enter pour continuer")
     
-
 def main():
     """
     Main function.
